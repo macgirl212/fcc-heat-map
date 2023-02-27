@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #cab498;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+svg {
+  font-size: 26px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.cell:hover {
+  mix-blend-mode: lighten;
+  stroke-width: 1.5px;
+}
+
+#title,
+#description {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#cab498), color-stop(#faebd9), to(#cab498));
+  background: linear-gradient(to right, #cab498, #faebd9, #cab498);
+}
+
+#title {
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+#description {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#description #temperature {
+  font-weight: 600;
+}
+
+#tooltip {
+  white-space: pre-line;
+  text-align: center;
+  width: 11rem;
+}
+/*# sourceMappingURL=style.css.map */
